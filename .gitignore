@@ -1,6 +1,15 @@
 # macOS
 .DS_Store
+
+# Internal proposal strategy / confidential working files
 Axonova_EPFL_1.md
+msit_*.md
+*Harsh*Council*.md
+*Guardian*OS*.md
+*Project_Instructions*.md
+*conversation_report*.md
+*EPFL*Jamie*Paik*.pdf
+*MOAZRT*Oripixel*.pdf
 research/slides/Embodied_Neuromorphic_Origami_s.pdf
 
 # Python bytecode and caches
