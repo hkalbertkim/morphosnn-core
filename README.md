@@ -47,18 +47,33 @@ MorphoSNN is informed by distributed motor-control ideas from arthropod nervous 
 
 These ideas are used as engineering abstractions. The project does not claim biological fidelity, validated robotics performance, or guaranteed transfer across arbitrary bodies.
 
+## Start Here
+
+| Goal | Read |
+|---|---|
+| Understand the project thesis | [docs/00_CONCEPT.md](docs/00_CONCEPT.md) |
+| Understand the architecture | [docs/01_ARCHITECTURE.md](docs/01_ARCHITECTURE.md) |
+| Understand the biological basis | [docs/02_BIOLOGICAL_INSPIRATION.md](docs/02_BIOLOGICAL_INSPIRATION.md) |
+| Understand benchmark direction | [docs/03_BENCHMARK_PROTOCOL.md](docs/03_BENCHMARK_PROTOCOL.md) |
+| Understand validation pathway | [docs/04_EPFL_RRL_VALIDATION.md](docs/04_EPFL_RRL_VALIDATION.md) |
+| Understand roadmap | [docs/05_ROADMAP.md](docs/05_ROADMAP.md) |
+| Read the seed specification | [SPEC.md](SPEC.md) |
+| Read design decisions | [docs/decisions/](docs/decisions/) |
+| Run the toy example | [examples/toy_cpg_controller/](examples/toy_cpg_controller/) |
+| Review references | [research/bibliography/references.md](research/bibliography/references.md) |
+
 ## Repository Structure
 
-- `assets/` - Project logos and visual assets.
-- `docs/` - Concept, architecture, validation, benchmark, roadmap, and design-decision documentation.
-- `research/` - Public research notes, conceptual slide materials, and bibliography scaffolding.
-- `examples/` - Minimal runnable examples that illustrate core abstractions.
-- `benchmarks/` - KPI tables and benchmark protocol artifacts.
-- `paper/` - Technical note and publication-oriented drafts.
+- [assets/](assets/) - Project logos and visual assets.
+- [docs/](docs/) - Concept, architecture, validation, benchmark, roadmap, and design-decision documentation.
+- [research/](research/) - Public research notes, conceptual slide materials, and bibliography scaffolding.
+- [examples/](examples/) - Minimal runnable examples that illustrate core abstractions.
+- [benchmarks/](benchmarks/) - KPI tables and benchmark protocol artifacts.
+- [paper/](paper/) - Technical note and publication-oriented drafts.
 
 ## Current Status
 
-This is a seed repository for organizing the public-facing `morphosnn-core` project structure. Implementation code, benchmark harnesses, and validation artifacts will be added as the architecture stabilizes.
+MorphoSNN Core is currently a seed reference repository. It contains public concept documents, a seed specification, design decision records, scientific foundation notes, a draft benchmark protocol, and a toy CPG example. It is not yet a validated robotics benchmark or deployment-ready control stack.
 
 ## Non-goals
 
