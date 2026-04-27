@@ -14,6 +14,11 @@ python3 examples/toy_cpg_controller/cpg_oscillator.py
 
 The script prints a short time-series of two coupled anti-phase rhythm signals.
 
+A sample output trace is available at:
+[sample_output.csv](sample_output.csv)
+
+This file is generated from the toy oscillator script and is included only as a reproducibility check for the seed repo. It is not a biological recording and not a robot experiment result.
+
 ## What It Demonstrates
 
 - A tiny oscillator state updated over time.

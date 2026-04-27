@@ -8,6 +8,14 @@
   <img alt="field: Physical AI" src="https://img.shields.io/badge/field-Physical%20AI-059669">
   <img alt="paradigm: Bio-inspired SNN" src="https://img.shields.io/badge/paradigm-Bio--inspired%20SNN-7c3aed">
   <img alt="focus: Distributed Control" src="https://img.shields.io/badge/focus-Distributed%20Control-f97316">
+  <a href="https://github.com/hkalbertkim/morphosnn-core/releases/tag/v0.1.0-seed">
+    <img src="https://img.shields.io/badge/release-v0.1.0--seed-23384d" alt="release">
+  </a>
+</p>
+
+<p align="center">
+  <a href="./README.md">English</a> |
+  <a href="./README.ko.md">한국어</a>
 </p>
 
 <h3 align="center">Bio-inspired Distributed Neuromorphic Physical AI</h3>
@@ -74,6 +82,8 @@ These ideas are used as engineering abstractions. The project does not claim bio
 ## Current Status
 
 MorphoSNN Core is currently a seed reference repository. It contains public concept documents, a seed specification, design decision records, scientific foundation notes, a draft benchmark protocol, and a toy CPG example. It is not yet a validated robotics benchmark or deployment-ready control stack.
+
+The toy CPG oscillator includes a reproducible sample output trace at [examples/toy_cpg_controller/sample_output.csv](examples/toy_cpg_controller/sample_output.csv).
 
 ## Non-goals
 
