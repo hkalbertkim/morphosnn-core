@@ -1,5 +1,7 @@
 # macOS
 .DS_Store
+Axonova_EPFL_1.md
+research/slides/Embodied_Neuromorphic_Origami_s.pdf
 
 # Python bytecode and caches
 __pycache__/

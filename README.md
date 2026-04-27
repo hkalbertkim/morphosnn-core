@@ -16,6 +16,8 @@
 
 MorphoSNN is a bio-inspired distributed neuromorphic control stack for physical AI.
 
+MorphoSNN focuses on the missing body-near intelligence layer between high-level AI planning and physical actuation: local rhythm generation, reflex-like sensory correction, neuromodulation, and morphology-aware adaptation.
+
 The project uses biomimetic design principles, but does not attempt to reproduce biological nervous systems one-to-one. Instead, it abstracts distributed motor-control principles from arthropod nervous systems—segmental ganglia, central pattern generators, sensory feedback, efference copy, neuromodulation, and morphological computation—into modular SNN-based control architectures.
 
 ## Repository Structure
@@ -30,6 +32,16 @@ The project uses biomimetic design principles, but does not attempt to reproduce
 ## Current Status
 
 This is a seed repository for organizing the public-facing `morphosnn-core` project structure. Implementation code, benchmark harnesses, and validation artifacts will be added as the architecture stabilizes.
+
+## Non-goals
+
+MorphoSNN is currently a seed reference stack. It does not claim to:
+
+- reproduce biological nervous systems one-to-one;
+- provide a validated robotics benchmark yet;
+- guarantee zero-shot or few-shot adaptation across arbitrary physical systems;
+- include partner-specific confidential data, unpublished results, or proprietary hardware designs;
+- replace high-level AI planning systems. MorphoSNN focuses on the body-near control layer between high-level planning and physical actuation.
 
 ## License
 
