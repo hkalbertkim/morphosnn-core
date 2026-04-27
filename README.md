@@ -12,7 +12,7 @@
 
 <h3 align="center">Bio-inspired Distributed Neuromorphic Physical AI</h3>
 
-## Introduction
+## Overview
 
 MorphoSNN is a bio-inspired distributed neuromorphic control stack for physical AI.
 
@@ -20,12 +20,39 @@ MorphoSNN focuses on the missing body-near intelligence layer between high-level
 
 The project uses biomimetic design principles, but does not attempt to reproduce biological nervous systems one-to-one. Instead, it abstracts distributed motor-control principles from arthropod nervous systems—segmental ganglia, central pattern generators, sensory feedback, efference copy, neuromodulation, and morphological computation—into modular SNN-based control architectures.
 
+## Why MorphoSNN
+
+Modern AI systems are increasingly capable of high-level perception, planning, and decision-making, but physical systems still need fast, local, body-aware control. MorphoSNN treats this body-near layer as a first-class design problem rather than a low-level implementation detail.
+
+The seed repository organizes the concepts, architecture, examples, and research notes needed to develop that layer in a public, implementation-ready form.
+
+## Core Thesis
+
+Physical AI benefits from distributed control modules that are close to the body, coupled through morphology, and modulated by higher-level context. In MorphoSNN, local rhythmic primitives, sensory correction, forward prediction, and morphology-aware validation are treated as complementary parts of one neuromechanical control stack.
+
+## Architecture
+
+| Layer | Role |
+|---|---|
+| Body Graph Layer | Represents modules, sensors, actuators, and morphology |
+| Local CPG / SNN Controller Layer | Generates local rhythmic primitives |
+| Sensory Reflex Loop Layer | Performs reflex-like sensory correction |
+| Forward Model / Efference Copy Layer | Compares predicted and observed sensory outcomes |
+| Neuromodulation / Global Coordination Layer | Modulates local controllers without micromanaging every actuator |
+| Morphology-Aware Validation Layer | Connects control outputs to physical morphology and benchmarks |
+
+## Scientific Foundations
+
+MorphoSNN is informed by distributed motor-control ideas from arthropod nervous systems, central pattern generators, sensory feedback loops, efference copy, neuromodulation, and morphological computation.
+
+These ideas are used as engineering abstractions. The project does not claim biological fidelity, validated robotics performance, or guaranteed transfer across arbitrary bodies.
+
 ## Repository Structure
 
 - `assets/` - Project logos and visual assets.
-- `docs/` - Concept, architecture, validation, benchmark, and roadmap documentation.
-- `research/` - Research notes, slides, and bibliography material.
-- `examples/` - Minimal runnable or illustrative controller examples.
+- `docs/` - Concept, architecture, validation, benchmark, roadmap, and design-decision documentation.
+- `research/` - Public research notes, conceptual slide materials, and bibliography scaffolding.
+- `examples/` - Minimal runnable examples that illustrate core abstractions.
 - `benchmarks/` - KPI tables and benchmark protocol artifacts.
 - `paper/` - Technical note and publication-oriented drafts.
 
@@ -42,6 +69,14 @@ MorphoSNN is currently a seed reference stack. It does not claim to:
 - guarantee zero-shot or few-shot adaptation across arbitrary physical systems;
 - include partner-specific confidential data, unpublished results, or proprietary hardware designs;
 - replace high-level AI planning systems. MorphoSNN focuses on the body-near control layer between high-level planning and physical actuation.
+
+## Roadmap
+
+- Refine the body graph and local controller interfaces.
+- Expand the toy CPG example into a small testable controller abstraction.
+- Populate the bibliography with primary scientific and technical references.
+- Define benchmark metrics before claiming robotics validation.
+- Keep public core materials separated from private deployments and partner-sensitive research.
 
 ## License
 
