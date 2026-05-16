@@ -1,12 +1,12 @@
 # Toy CPG Controller
 
-## What This Example Shows
+## What this example shows
 
 This directory contains a minimal, dependency-free toy CPG oscillator example. It shows how two local rhythm channels can be represented as anti-phase signals before being mapped to richer SNN/CPG-style controller abstractions.
 
 CPG-like rhythmic control is a useful first scaffold for locomotion-oriented task families because many walking, crawling, and legged-control primitives require repeatable phase relationships between local body channels.
 
-## How to Run
+## How to run
 
 From the repository root:
 
@@ -16,7 +16,7 @@ python3 examples/toy_cpg_controller/cpg_oscillator.py
 
 The script prints a short CSV-like terminal trace. It has no external dependencies.
 
-## Expected Output
+## Expected output
 
 The output starts with a header and then one row per timestep:
 
@@ -30,7 +30,7 @@ time,left_signal,right_signal
 
 A reproducibility trace is included at [sample_output.csv](sample_output.csv).
 
-## How to Interpret the Trace
+## How to interpret the trace
 
 - `time` is the simulated timestamp in seconds.
 - `left_signal` is the sine output of the left rhythm channel.
@@ -39,7 +39,7 @@ A reproducibility trace is included at [sample_output.csv](sample_output.csv).
 
 The example is intentionally small: it makes the rhythm primitive visible in text before adding richer body graphs, morphology-aware feedback, SNN implementations, or benchmark protocols.
 
-## Scope Boundaries / Non-Claims
+## Scope boundaries / non-claims
 
 This toy example is not:
 
@@ -52,7 +52,7 @@ This toy example is not:
 
 It only illustrates rhythmic primitive generation that can later inform local SNN/CPG-style controller abstractions.
 
-## How This Connects to MorphoSNN
+## How this connects to MorphoSNN
 
 MorphoSNN studies morphology-coupled SNN and neuromorphic control starting from arthropod-inspired distributed body intelligence. Local rhythmic loops, reflex-like correction, and body-segment coordination are natural entry points for that research direction.
 
