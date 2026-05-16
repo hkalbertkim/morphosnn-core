@@ -18,6 +18,10 @@
 
 [10_NEUROMORPHIC_STRATEGIC_THESIS.md](10_NEUROMORPHIC_STRATEGIC_THESIS.md) is the main explanatory document for these public-safe visual concept assets.
 
+Current README logo asset: `docs/assets/morphosnn/MorphoSNN_Logo_Final_1.png`.
+
+Concept-story images remain under `docs/assets/morphosnn/` and are referenced from the neuromorphic strategic thesis.
+
 - [001.png](assets/morphosnn/001.png) - Master concept overview for morphology-aware spiking intelligence.
 - [002.png](assets/morphosnn/002.png) - Why centralized AI struggles under real-world physical conditions.
 - [003.png](assets/morphosnn/003.png) - Biology-inspired design principles for efficient intelligence.
