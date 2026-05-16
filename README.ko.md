@@ -33,6 +33,12 @@ MorphoSNN은 문제 정의, 곤충 기반 설계 원리, 연구 접근법, task-
 
 전체 비주얼 스토리는 [`docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md`](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md)에서 확인할 수 있습니다.
 
+## 다음에 볼 문서
+
+- 문서 지도: [docs/README.md](docs/README.md)
+- 연구 가설과 전체 비주얼 스토리: [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md)
+- 실행 가능한 toy CPG 예제: [examples/toy_cpg_controller/cpg_oscillator.py](examples/toy_cpg_controller/cpg_oscillator.py)
+
 본 프로젝트는 생체모방 설계 원리(biomimetic design principles)를 사용하지만, 생물학적 신경계를 1:1로 복제하려는 프로젝트가 아닙니다. 대신 절지동물의 분산 운동제어 원리, 즉 체절 신경절, 중앙 패턴 생성기(CPG), 감각 피드백, 운동명령 복사본, 신경조절, 형태학적 연산을 공학적으로 추상화하여 모듈형 스파이킹 신경망(SNN) 기반 제어 구조로 전환하는 것을 목표로 합니다.
 
 ## 왜 MorphoSNN인가

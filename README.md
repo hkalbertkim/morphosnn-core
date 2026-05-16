@@ -40,6 +40,12 @@ MorphoSNN has a full six-part visual concept set covering the problem, insect-in
 
 Read the full visual story in [`docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md`](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md).
 
+## Where To Go Next
+
+- Documentation map: [docs/README.md](docs/README.md)
+- Research thesis and full visual story: [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md)
+- Runnable toy CPG example: [examples/toy_cpg_controller/cpg_oscillator.py](examples/toy_cpg_controller/cpg_oscillator.py)
+
 The project uses biomimetic design principles, but does not attempt to reproduce biological nervous systems one-to-one. Instead, it abstracts distributed motor-control principles from arthropod nervous systems—segmental ganglia, central pattern generators, sensory feedback, efference copy, neuromodulation, and morphological computation—into modular SNN-based control architectures.
 
 ## Why MorphoSNN

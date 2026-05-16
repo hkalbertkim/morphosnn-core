@@ -2,6 +2,8 @@
 
 A public research thesis for turning neural-manifold geometry, ANN/SNN alignment, and embodied task-family benchmarks into a neuromorphic AI reference stack.
 
+Robotics and locomotion are the first constrained task-family for this repository; the broader project is about morphology-coupled SNN and neuromorphic computation through the lens of arthropod-inspired distributed body intelligence.
+
 ![MorphoSNN concept overview](assets/morphosnn/001.png)
 
 ## 1. Core Thesis

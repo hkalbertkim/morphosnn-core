@@ -1,20 +1,33 @@
 # MorphoSNN Documentation
 
+## Start Here
+
+- [Main README](../README.md) - English overview, top-level positioning, and navigation.
+- [Korean README](../README.ko.md) - Korean overview with equivalent public positioning.
+- [00_CONCEPT.md](00_CONCEPT.md) - Core concept and project thesis.
+- [01_ARCHITECTURE.md](01_ARCHITECTURE.md) - System architecture and control layers.
+
+## Research Thesis
+
+- [10_NEUROMORPHIC_STRATEGIC_THESIS.md](10_NEUROMORPHIC_STRATEGIC_THESIS.md) - Public strategy thesis for task-grounded neuromorphic AI, robotics as first constrained task-family, and safe AlexNet/ImageNet historical analogy.
+- [06_NEURAL_MANIFOLD_ALIGNMENT.md](06_NEURAL_MANIFOLD_ALIGNMENT.md) - Neural-manifold geometry and ANN/SNN representation alignment framing.
+- [07_TASK_FAMILY_RATIONALE.md](07_TASK_FAMILY_RATIONALE.md) - Why robotics is the first constrained task-family.
+- [02_BIOLOGICAL_INSPIRATION.md](02_BIOLOGICAL_INSPIRATION.md) - Biological inspiration and abstraction boundaries.
+
+## Examples
+
+- [examples/toy_cpg_controller/cpg_oscillator.py](../examples/toy_cpg_controller/cpg_oscillator.py) - Minimal anti-phase CPG rhythm sketch.
+- [examples/toy_cpg_controller/](../examples/toy_cpg_controller/) - Toy CPG example directory and sample output.
+
 ## Core Documents
 
-- [00_CONCEPT.md](00_CONCEPT.md)
-- [01_ARCHITECTURE.md](01_ARCHITECTURE.md)
-- [02_BIOLOGICAL_INSPIRATION.md](02_BIOLOGICAL_INSPIRATION.md)
 - [03_BENCHMARK_PROTOCOL.md](03_BENCHMARK_PROTOCOL.md)
 - [04_EPFL_RRL_VALIDATION.md](04_EPFL_RRL_VALIDATION.md)
 - [05_ROADMAP.md](05_ROADMAP.md)
-- [06_NEURAL_MANIFOLD_ALIGNMENT.md](06_NEURAL_MANIFOLD_ALIGNMENT.md)
-- [07_TASK_FAMILY_RATIONALE.md](07_TASK_FAMILY_RATIONALE.md)
 - [08_CONSORTIUM_ROLES.md](08_CONSORTIUM_ROLES.md)
 - [09_EPFL_RRL_EXTENSION_NOTE.md](09_EPFL_RRL_EXTENSION_NOTE.md)
-- [10_NEUROMORPHIC_STRATEGIC_THESIS.md](10_NEUROMORPHIC_STRATEGIC_THESIS.md) - Public strategy thesis for task-grounded neuromorphic AI, robotics as first constrained task-family, and safe AlexNet/ImageNet historical analogy.
 
-## Visual Concept Set
+## Visual Assets
 
 [10_NEUROMORPHIC_STRATEGIC_THESIS.md](10_NEUROMORPHIC_STRATEGIC_THESIS.md) is the main explanatory document for these public-safe visual concept assets.
 
@@ -28,6 +41,10 @@ Concept-story images remain under `docs/assets/morphosnn/` and are referenced fr
 - [004.png](assets/morphosnn/004.png) - Research approach from biology to neuromorphic systems.
 - [005.png](assets/morphosnn/005.png) - Robotics as the first constrained task-family and broader expansion path.
 - [006.png](assets/morphosnn/006.png) - Open research platform and long-term impact direction.
+
+## Non-Claims / Scope Boundaries
+
+MorphoSNN is a seed public research repository. It does not claim biological fidelity, production readiness, completed robotics validation, general SNN superiority, measured energy reduction, official institutional endorsement, or an AlexNet-level achievement.
 
 ## Design Decisions
 
