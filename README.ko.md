@@ -36,6 +36,7 @@ MorphoSNN은 문제 정의, 곤충 기반 설계 원리, 연구 접근법, task-
 ## 다음에 볼 문서
 
 - 문서 지도: [docs/README.md](docs/README.md)
+- 데모 준비 가이드: [docs/11_DEMO_READINESS_GUIDE.md](docs/11_DEMO_READINESS_GUIDE.md)
 - 연구 가설과 전체 비주얼 스토리: [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md)
 - Toy CPG 예제 가이드: [examples/toy_cpg_controller/README.md](examples/toy_cpg_controller/README.md)
 - 실행 가능한 toy CPG 스크립트: [examples/toy_cpg_controller/cpg_oscillator.py](examples/toy_cpg_controller/cpg_oscillator.py)

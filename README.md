@@ -43,6 +43,7 @@ Read the full visual story in [`docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md`](docs/
 ## Where To Go Next
 
 - Documentation map: [docs/README.md](docs/README.md)
+- Demo readiness guide: [docs/11_DEMO_READINESS_GUIDE.md](docs/11_DEMO_READINESS_GUIDE.md)
 - Research thesis and full visual story: [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md)
 - Toy CPG example guide: [examples/toy_cpg_controller/README.md](examples/toy_cpg_controller/README.md)
 - Runnable toy CPG script: [examples/toy_cpg_controller/cpg_oscillator.py](examples/toy_cpg_controller/cpg_oscillator.py)

@@ -4,6 +4,7 @@
 
 - [Main README](../README.md) - English overview, top-level positioning, and navigation.
 - [Korean README](../README.ko.md) - Korean overview with equivalent public positioning.
+- [11_DEMO_READINESS_GUIDE.md](11_DEMO_READINESS_GUIDE.md) - Short 2-minute walkthrough for reviewers, presentations, and demo settings.
 - [00_CONCEPT.md](00_CONCEPT.md) - Core concept and project thesis.
 - [01_ARCHITECTURE.md](01_ARCHITECTURE.md) - System architecture and control layers.
 
