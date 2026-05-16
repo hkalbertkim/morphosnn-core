@@ -51,6 +51,12 @@ Biological Neural Manifold geometry quantification
 
 Task-efficiency signals may include generalization, sample complexity, computation or energy proxy, robustness, and local adaptation. This remains a seed direction and intended reference-stack path, not yet a validated robotics result or a claim of biological fidelity.
 
+## Research & Validation Context
+
+In the proposal-facing framing, Axonova is the intended AI/SNN reference-stack integrator. EPFL/RRL is discussed as a proposed research and validation-pathway context using modular, origami, and soft robotics testbed expertise. MorphoSNN Core is the public seed reference-stack repository for concepts, metrics, benchmark scaffolding, and examples.
+
+The public repository does not claim awarded funding, institutional endorsement, committed partner deliverables, or completed partner validation. Institutional logos are not included in the public repository unless permission and usage rights are confirmed.
+
 ## Architecture
 
 | Layer | Role |

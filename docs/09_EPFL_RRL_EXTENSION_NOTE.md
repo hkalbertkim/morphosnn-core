@@ -27,4 +27,6 @@ This layer is intended to operate between high-level planning and physical actua
 
 MorphoSNN does not claim current partner-specific validation, confidential data access, or confirmed funded EPFL/RRL participation.
 
+EPFL/RRL is discussed as a research and validation-pathway context, not as a public claim of completed validation, institutional endorsement, or funded participation.
+
 The proposed pathway is to test whether neural-manifold-inspired geometry can support interpretable and efficient distributed control under physical variation. Robotics is the first constrained validation family, not the final application boundary.

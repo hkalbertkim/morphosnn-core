@@ -17,9 +17,11 @@ Use text labels and placeholder boxes for organization identity in open-source d
 
 ## Logo/Identity Handling Rule
 
-Do not commit third-party logos unless license and written permission are clear. For now, use text-only names or placeholder boxes in diagrams.
+Text names may be used for public-safe role descriptions. Do not commit third-party institutional logos to this public repository without explicit permission or documented usage rights. For now, use text-only names or placeholder boxes in diagrams.
 
-If logos are later used in slide materials, keep them outside the open-source repo unless rights are confirmed.
+Presentation decks and submitted proposal materials may use approved logos according to applicable submission and branding rules. If logos are later used in slide materials, keep them outside the open-source repo unless rights are confirmed.
+
+Public repository wording must avoid implying institutional endorsement, funded participation, or completed validation unless formally confirmed.
 
 ## Claim Boundaries
 
