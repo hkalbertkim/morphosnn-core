@@ -57,6 +57,12 @@ In the proposal-facing framing, Axonova is the intended AI/SNN reference-stack i
 
 The public repository does not claim awarded funding, institutional endorsement, committed partner deliverables, or completed partner validation. Institutional logos are not included in the public repository unless permission and usage rights are confirmed.
 
+## Neuromorphic Strategy Thesis
+
+MorphoSNN is motivated by the view that neuromorphic AI needs concrete task-family benchmarks, not only theoretical models or device-level demonstrations. Deep learning became broadly credible after benchmark moments such as ImageNet/AlexNet showed that learned representations could outperform prior approaches in a specific domain. MorphoSNN does not claim an equivalent breakthrough. Instead, it uses robotics as a first constrained task-family to test whether neural-manifold-inspired representation geometry can be connected to ANN/SNN alignment, distributed control principles, and measurable task-efficiency signals.
+
+Read the strategy thesis: [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md).
+
 ## Architecture
 
 | Layer | Role |
@@ -85,6 +91,7 @@ These ideas are used as engineering abstractions. The project does not claim bio
 | Understand validation pathway | [docs/04_EPFL_RRL_VALIDATION.md](docs/04_EPFL_RRL_VALIDATION.md) |
 | Understand roadmap | [docs/05_ROADMAP.md](docs/05_ROADMAP.md) |
 | Understand RFP neural-manifold framing | [docs/06_NEURAL_MANIFOLD_ALIGNMENT.md](docs/06_NEURAL_MANIFOLD_ALIGNMENT.md), [docs/07_TASK_FAMILY_RATIONALE.md](docs/07_TASK_FAMILY_RATIONALE.md), [docs/08_CONSORTIUM_ROLES.md](docs/08_CONSORTIUM_ROLES.md), [docs/09_EPFL_RRL_EXTENSION_NOTE.md](docs/09_EPFL_RRL_EXTENSION_NOTE.md) |
+| Understand neuromorphic strategy thesis | [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md) |
 | Read the seed specification | [SPEC.md](SPEC.md) |
 | Read design decisions | [docs/decisions/](docs/decisions/) |
 | Run the toy example | [examples/toy_cpg_controller/](examples/toy_cpg_controller/) |

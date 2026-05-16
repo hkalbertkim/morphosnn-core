@@ -12,6 +12,7 @@
 - [07_TASK_FAMILY_RATIONALE.md](07_TASK_FAMILY_RATIONALE.md)
 - [08_CONSORTIUM_ROLES.md](08_CONSORTIUM_ROLES.md)
 - [09_EPFL_RRL_EXTENSION_NOTE.md](09_EPFL_RRL_EXTENSION_NOTE.md)
+- [10_NEUROMORPHIC_STRATEGIC_THESIS.md](10_NEUROMORPHIC_STRATEGIC_THESIS.md) - Public strategy thesis for task-grounded neuromorphic AI, robotics as first constrained task-family, and safe AlexNet/ImageNet historical analogy.
 
 ## Design Decisions
 
