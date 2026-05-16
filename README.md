@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Main_logo_img_and_txt.png" alt="MorphoSNN logo" width="520">
+  <img src="docs/assets/morphosnn/MorphoSNN_Logo_Final.png" alt="MorphoSNN logo" width="520">
 </p>
 
 <p align="center">
