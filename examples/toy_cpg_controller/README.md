@@ -1,8 +1,10 @@
 # Toy CPG Controller
 
-## Purpose
+## What This Example Shows
 
-This directory contains a minimal, dependency-free illustration of rhythmic primitive generation. It is intended to make the CPG/SNN controller abstraction concrete without claiming biological realism or robotics validation.
+This directory contains a minimal, dependency-free toy CPG oscillator example. It shows how two local rhythm channels can be represented as anti-phase signals before being mapped to richer SNN/CPG-style controller abstractions.
+
+CPG-like rhythmic control is a useful first scaffold for locomotion-oriented task families because many walking, crawling, and legged-control primitives require repeatable phase relationships between local body channels.
 
 ## How to Run
 
@@ -12,21 +14,46 @@ From the repository root:
 python3 examples/toy_cpg_controller/cpg_oscillator.py
 ```
 
-The script prints a short time-series of two coupled anti-phase rhythm signals.
+The script prints a short CSV-like terminal trace. It has no external dependencies.
 
-A sample output trace is available at:
-[sample_output.csv](sample_output.csv)
+## Expected Output
 
-This file is generated from the toy oscillator script and is included only as a reproducibility check for the seed repo. It is not a biological recording and not a robot experiment result.
+The output starts with a header and then one row per timestep:
 
-## What It Demonstrates
+```text
+time,left_signal,right_signal
+0.00,0.0000,0.0000
+0.10,0.3090,-0.3090
+0.20,0.5878,-0.5878
+0.30,0.8090,-0.8090
+```
 
-- A tiny oscillator state updated over time.
-- Two rhythm channels with anti-phase coupling.
-- A simple text output format that can be inspected without plotting libraries.
+A reproducibility trace is included at [sample_output.csv](sample_output.csv).
 
-## What It Does Not Demonstrate
+## How to Interpret the Trace
 
-This toy example is not a biological simulation and not a robot controller. It only illustrates the idea of rhythmic primitive generation that can later be mapped into local SNN/CPG-style controller abstractions.
+- `time` is the simulated timestamp in seconds.
+- `left_signal` is the sine output of the left rhythm channel.
+- `right_signal` is the sine output of the right rhythm channel.
+- The two channels are initialized in anti-phase, so positive values on one side correspond to negative values on the other side for much of the trace.
 
-It does not demonstrate validated locomotion, morphology-aware benchmarking, zero-shot transfer, or physical adaptation.
+The example is intentionally small: it makes the rhythm primitive visible in text before adding richer body graphs, morphology-aware feedback, SNN implementations, or benchmark protocols.
+
+## Scope Boundaries / Non-Claims
+
+This toy example is not:
+
+- a full SNN model;
+- a biological fidelity claim;
+- a physical robot controller;
+- a robotics benchmark;
+- an energy benchmark;
+- evidence of validated locomotion or physical adaptation.
+
+It only illustrates rhythmic primitive generation that can later inform local SNN/CPG-style controller abstractions.
+
+## How This Connects to MorphoSNN
+
+MorphoSNN studies morphology-coupled SNN and neuromorphic control starting from arthropod-inspired distributed body intelligence. Local rhythmic loops, reflex-like correction, and body-segment coordination are natural entry points for that research direction.
+
+This example is the smallest runnable scaffold in the repository: it demonstrates an anti-phase rhythm primitive relevant to locomotion-oriented task families without claiming that the repository already contains a validated robot controller.

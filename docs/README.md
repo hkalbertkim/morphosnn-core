@@ -16,6 +16,7 @@
 
 ## Examples
 
+- [examples/toy_cpg_controller/README.md](../examples/toy_cpg_controller/README.md) - What the toy CPG example demonstrates, how to run it, expected output, and non-claims.
 - [examples/toy_cpg_controller/cpg_oscillator.py](../examples/toy_cpg_controller/cpg_oscillator.py) - Minimal anti-phase CPG rhythm sketch.
 - [examples/toy_cpg_controller/](../examples/toy_cpg_controller/) - Toy CPG example directory and sample output.
 
