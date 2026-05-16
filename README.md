@@ -22,9 +22,13 @@
 
 ## Overview
 
-MorphoSNN is a bio-inspired distributed neuromorphic control stack for physical AI.
+MorphoSNN is an open research codebase exploring morphology-coupled SNN and neuromorphic control, starting from arthropod-inspired distributed body intelligence.
 
-MorphoSNN focuses on the missing body-near intelligence layer between high-level AI planning and physical actuation: local rhythm generation, reflex-like sensory correction, neuromodulation, and morphology-aware adaptation.
+- Problem: Modern AI systems remain heavily centralized and compute-intensive, while many biological systems solve control through distributed body-level loops.
+- Thesis: Arthropods suggest that intelligence can emerge from segments, legs, local reflexes, CPGs, and morphology, not only from a central brain.
+- Current repo: This repository currently provides early CPG / locomotion-oriented experiments, public research notes, and visual concept material as the first task-family for a broader neuromorphic computing thesis.
+
+MorphoSNN is an early research repository. It does not yet claim biological fidelity, production readiness, generalized SNN superiority, measured energy reduction, or an AlexNet-level achievement.
 
 ![MorphoSNN concept overview: learning from insects to build efficient neuromorphic intelligence](docs/assets/morphosnn/001.png)
 
