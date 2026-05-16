@@ -79,3 +79,37 @@ Relevance: Supports MorphoSNN's use of distributed local control as an engineeri
 - NotebookLM-generated slide decks are treated as conceptual/explanatory materials, not primary references.
 - Primary literature should be used for formal claims.
 - This bibliography is expected to evolve as the project moves from seed repo to validated implementation.
+
+## 12. Neural Manifold, Representation Similarity, and Task Efficiency References to Add
+
+This section is a placeholder for public, verifiable references that support the RFP-oriented neural-manifold and representation-alignment layer. Exact citation details should be added only after checking primary sources.
+
+### Neural Population Geometry
+
+- TODO: Add primary references on neural population manifolds, low-dimensional latent dynamics, and population geometry in sensorimotor systems.
+  Relevance: Supports the proposed geometry-quantification layer without claiming biological fidelity.
+
+### Task-Dependent Neural Manifolds
+
+- TODO: Add primary references on task-conditioned neural representations, manifold remapping, and state-dependent population trajectories.
+  Relevance: Supports comparing representation geometry across behaviorally meaningful task conditions.
+
+### Representation Similarity / CKA / RSA
+
+- TODO: Add verified references for centered kernel alignment, representational similarity analysis, Procrustes-style alignment, and related neural-network representation comparison methods.
+  Relevance: Supports candidate ANN/SNN representation alignment metrics.
+
+### Manifold Alignment / Capacity Theory
+
+- TODO: Add verified references on manifold alignment, classification capacity, separability, margins, curvature, and intrinsic dimensionality in learned representations.
+  Relevance: Supports linking geometry metrics to design and optimization guidance.
+
+### Neuromorphic/SNN Benchmarking
+
+- TODO: Add public references on SNN benchmarking, event activity proxies, energy-aware evaluation, and neuromorphic task protocols.
+  Relevance: Supports measurable task-efficiency proxies for ANN/SNN comparison.
+
+### Robotics Task-Family Validation
+
+- TODO: Add public references on modular robotics, soft robotics, morphology-aware control benchmarks, perturbation recovery, and low-data adaptation protocols.
+  Relevance: Supports robotics as a first constrained validation family rather than a final application boundary.

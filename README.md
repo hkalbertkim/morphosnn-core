@@ -38,6 +38,19 @@ The seed repository organizes the concepts, architecture, examples, and research
 
 Physical AI benefits from distributed control modules that are close to the body, coupled through morphology, and modulated by higher-level context. In MorphoSNN, local rhythmic primitives, sensory correction, forward prediction, and morphology-aware validation are treated as complementary parts of one neuromechanical control stack.
 
+## RFP-Oriented Research Framing
+
+MorphoSNN is not only a robotics control stack. The proposed framing is to use robotics as a first constrained task-family for testing whether neural-manifold-inspired representation geometry can be translated into ANN/SNN alignment metrics, distributed control principles, and measurable task-efficiency signals.
+
+The intended RFP pipeline is:
+
+Biological Neural Manifold geometry quantification
+-> ANN/SNN representation alignment and similarity metrics
+-> relation between representation geometry and task efficiency
+-> open-source reference stack and design guideline
+
+Task-efficiency signals may include generalization, sample complexity, computation or energy proxy, robustness, and local adaptation. This remains a seed direction and intended reference-stack path, not yet a validated robotics result or a claim of biological fidelity.
+
 ## Architecture
 
 | Layer | Role |
@@ -65,6 +78,7 @@ These ideas are used as engineering abstractions. The project does not claim bio
 | Understand benchmark direction | [docs/03_BENCHMARK_PROTOCOL.md](docs/03_BENCHMARK_PROTOCOL.md) |
 | Understand validation pathway | [docs/04_EPFL_RRL_VALIDATION.md](docs/04_EPFL_RRL_VALIDATION.md) |
 | Understand roadmap | [docs/05_ROADMAP.md](docs/05_ROADMAP.md) |
+| Understand RFP neural-manifold framing | [docs/06_NEURAL_MANIFOLD_ALIGNMENT.md](docs/06_NEURAL_MANIFOLD_ALIGNMENT.md), [docs/07_TASK_FAMILY_RATIONALE.md](docs/07_TASK_FAMILY_RATIONALE.md), [docs/08_CONSORTIUM_ROLES.md](docs/08_CONSORTIUM_ROLES.md), [docs/09_EPFL_RRL_EXTENSION_NOTE.md](docs/09_EPFL_RRL_EXTENSION_NOTE.md) |
 | Read the seed specification | [SPEC.md](SPEC.md) |
 | Read design decisions | [docs/decisions/](docs/decisions/) |
 | Run the toy example | [examples/toy_cpg_controller/](examples/toy_cpg_controller/) |

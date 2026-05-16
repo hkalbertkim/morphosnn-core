@@ -53,6 +53,16 @@ Longer-term directions may include:
 - industrial low-data adaptation research;
 - open-core commercial boundary.
 
+## RFP-Aligned Documentation and Metric Path
+
+This path describes proposed documentation, metric, benchmark, and reporting stages. These are roadmap items, not completed validation claims.
+
+- v0.1 seed: public concept, toy CPG example, claim boundaries.
+- v0.2 metrics: neural manifold / representation alignment metric spec.
+- v0.3 benchmark: robotics task-family benchmark protocol.
+- v0.4 reference stack: runnable examples and reproducible reports.
+- v0.5 validation package: public-safe validation report template.
+
 ## Non-goals
 
 The roadmap does not claim guaranteed adaptation, validated hardware performance, or deployment readiness at the seed stage. Performance claims should be added only after reproducible baselines and validation evidence exist.

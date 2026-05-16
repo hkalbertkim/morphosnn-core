@@ -31,6 +31,19 @@ MorphoSNN은 이러한 문제를 상위 계획기가 모두 처리하기보다, 
 
 한국어로 말하면, 물리적 인공지능에는 더 큰 두뇌뿐 아니라 신체 가까이에서 빠르게 반응하는 국소 신경계가 필요합니다.
 
+## RFP 지향 연구 프레이밍
+
+MorphoSNN은 로봇 제어 스택만을 의미하지 않습니다. 제안서 관점의 프레이밍은 로봇을 첫 번째 제한된 과제군(task-family)으로 사용하여, 신경 매니폴드(neural manifold)에서 영감을 받은 표현 기하가 ANN/SNN 표현 정렬 지표, 분산 제어 원리, 측정 가능한 과제 효율 신호로 전환될 수 있는지를 검토하는 것입니다.
+
+의도된 RFP 파이프라인은 다음과 같습니다.
+
+생물학적 Neural Manifold 기하 정량화
+-> ANN/SNN 표현 정렬 및 유사도 지표
+-> 표현 기하와 과제 효율 사이의 관계 분석
+-> 오픈소스 기준 스택 및 설계 가이드라인
+
+과제 효율 신호에는 일반화, 표본 복잡도, 계산 또는 에너지 프록시, 강건성, 국소 적응 등이 포함될 수 있습니다. 이는 현재 검증 완료된 로봇 성능 주장이 아니라, 초기 방향(seed direction), 제안된 프레이밍(proposed framing), 의도된 기준 스택(intended reference stack) 경로입니다.
+
 ## 핵심 구조
 
 | 계층 | 역할 |
@@ -52,6 +65,7 @@ MorphoSNN은 이러한 문제를 상위 계획기가 모두 처리하기보다, 
 | 성능평가 방향 이해 | [docs/03_BENCHMARK_PROTOCOL.md](docs/03_BENCHMARK_PROTOCOL.md) |
 | 검증 경로 이해 | [docs/04_EPFL_RRL_VALIDATION.md](docs/04_EPFL_RRL_VALIDATION.md) |
 | 개발 로드맵 확인 | [docs/05_ROADMAP.md](docs/05_ROADMAP.md) |
+| RFP 신경 매니폴드 프레이밍 이해 | [docs/06_NEURAL_MANIFOLD_ALIGNMENT.md](docs/06_NEURAL_MANIFOLD_ALIGNMENT.md), [docs/07_TASK_FAMILY_RATIONALE.md](docs/07_TASK_FAMILY_RATIONALE.md), [docs/08_CONSORTIUM_ROLES.md](docs/08_CONSORTIUM_ROLES.md), [docs/09_EPFL_RRL_EXTENSION_NOTE.md](docs/09_EPFL_RRL_EXTENSION_NOTE.md) |
 | 초기 기술 명세 확인 | [SPEC.md](SPEC.md) |
 | 설계 결정 기록 확인 | [docs/decisions/](docs/decisions/) |
 | CPG 리듬 생성 예제 실행 | [examples/toy_cpg_controller/](examples/toy_cpg_controller/) |
