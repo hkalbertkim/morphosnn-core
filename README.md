@@ -26,6 +26,10 @@ MorphoSNN is a bio-inspired distributed neuromorphic control stack for physical 
 
 MorphoSNN focuses on the missing body-near intelligence layer between high-level AI planning and physical actuation: local rhythm generation, reflex-like sensory correction, neuromodulation, and morphology-aware adaptation.
 
+![MorphoSNN concept overview: learning from insects to build efficient neuromorphic intelligence](docs/assets/morphosnn/001.png)
+
+See the full visual concept set in [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md).
+
 The project uses biomimetic design principles, but does not attempt to reproduce biological nervous systems one-to-one. Instead, it abstracts distributed motor-control principles from arthropod nervous systems—segmental ganglia, central pattern generators, sensory feedback, efference copy, neuromodulation, and morphological computation—into modular SNN-based control architectures.
 
 ## Why MorphoSNN
@@ -38,11 +42,11 @@ The seed repository organizes the concepts, architecture, examples, and research
 
 Physical AI benefits from distributed control modules that are close to the body, coupled through morphology, and modulated by higher-level context. In MorphoSNN, local rhythmic primitives, sensory correction, forward prediction, and morphology-aware validation are treated as complementary parts of one neuromechanical control stack.
 
-## RFP-Oriented Research Framing
+## Research-Oriented Representation Framing
 
-MorphoSNN is not only a robotics control stack. The proposed framing is to use robotics as a first constrained task-family for testing whether neural-manifold-inspired representation geometry can be translated into ANN/SNN alignment metrics, distributed control principles, and measurable task-efficiency signals.
+MorphoSNN is not only a robotics control stack. The research framing is to use robotics as a first constrained task-family for testing whether neural-manifold-inspired representation geometry can be translated into ANN/SNN alignment metrics, distributed control principles, and measurable task-efficiency signals.
 
-The intended RFP pipeline is:
+The intended research pipeline is:
 
 Biological Neural Manifold geometry quantification
 -> ANN/SNN representation alignment and similarity metrics
@@ -53,7 +57,7 @@ Task-efficiency signals may include generalization, sample complexity, computati
 
 ## Research & Validation Context
 
-In the proposal-facing framing, Axonova is the intended AI/SNN reference-stack integrator. EPFL/RRL is discussed as a proposed research and validation-pathway context using modular, origami, and soft robotics testbed expertise. MorphoSNN Core is the public seed reference-stack repository for concepts, metrics, benchmark scaffolding, and examples.
+In the open research framing, Axonova is the intended AI/SNN reference-stack integrator. EPFL/RRL is discussed as a research and validation-pathway context using modular, origami, and soft robotics testbed expertise. MorphoSNN Core is the public seed reference-stack repository for concepts, metrics, benchmark scaffolding, and examples.
 
 The public repository does not claim awarded funding, institutional endorsement, committed partner deliverables, or completed partner validation. Institutional logos are not included in the public repository unless permission and usage rights are confirmed.
 
@@ -90,7 +94,7 @@ These ideas are used as engineering abstractions. The project does not claim bio
 | Understand benchmark direction | [docs/03_BENCHMARK_PROTOCOL.md](docs/03_BENCHMARK_PROTOCOL.md) |
 | Understand validation pathway | [docs/04_EPFL_RRL_VALIDATION.md](docs/04_EPFL_RRL_VALIDATION.md) |
 | Understand roadmap | [docs/05_ROADMAP.md](docs/05_ROADMAP.md) |
-| Understand RFP neural-manifold framing | [docs/06_NEURAL_MANIFOLD_ALIGNMENT.md](docs/06_NEURAL_MANIFOLD_ALIGNMENT.md), [docs/07_TASK_FAMILY_RATIONALE.md](docs/07_TASK_FAMILY_RATIONALE.md), [docs/08_CONSORTIUM_ROLES.md](docs/08_CONSORTIUM_ROLES.md), [docs/09_EPFL_RRL_EXTENSION_NOTE.md](docs/09_EPFL_RRL_EXTENSION_NOTE.md) |
+| Understand neural-manifold framing | [docs/06_NEURAL_MANIFOLD_ALIGNMENT.md](docs/06_NEURAL_MANIFOLD_ALIGNMENT.md), [docs/07_TASK_FAMILY_RATIONALE.md](docs/07_TASK_FAMILY_RATIONALE.md), [docs/08_CONSORTIUM_ROLES.md](docs/08_CONSORTIUM_ROLES.md), [docs/09_EPFL_RRL_EXTENSION_NOTE.md](docs/09_EPFL_RRL_EXTENSION_NOTE.md) |
 | Understand neuromorphic strategy thesis | [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md) |
 | Read the seed specification | [SPEC.md](SPEC.md) |
 | Read design decisions | [docs/decisions/](docs/decisions/) |

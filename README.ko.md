@@ -19,6 +19,10 @@ MorphoSNN Core는 물리적 인공지능(Physical AI)을 위한 생물 영감 �
 
 MorphoSNN은 상위 AI 계획(high-level AI planning)과 물리 구동(physical actuation) 사이에 위치하는 신체 근접 지능 계층(body-near intelligence layer)에 초점을 둡니다. 이 계층은 국소 리듬 생성, 반사 유사 감각 보정, 신경조절, 형태 인식 적응을 다룹니다.
 
+![MorphoSNN 개념 개요: 곤충에서 배우는 효율적 뉴로모픽 지능](docs/assets/morphosnn/001.png)
+
+전체 시각 개념 세트는 [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md)에서 확인할 수 있습니다.
+
 본 프로젝트는 생체모방 설계 원리(biomimetic design principles)를 사용하지만, 생물학적 신경계를 1:1로 복제하려는 프로젝트가 아닙니다. 대신 절지동물의 분산 운동제어 원리, 즉 체절 신경절, 중앙 패턴 생성기(CPG), 감각 피드백, 운동명령 복사본, 신경조절, 형태학적 연산을 공학적으로 추상화하여 모듈형 스파이킹 신경망(SNN) 기반 제어 구조로 전환하는 것을 목표로 합니다.
 
 ## 왜 MorphoSNN인가
@@ -31,11 +35,11 @@ MorphoSNN은 이러한 문제를 상위 계획기가 모두 처리하기보다, 
 
 한국어로 말하면, 물리적 인공지능에는 더 큰 두뇌뿐 아니라 신체 가까이에서 빠르게 반응하는 국소 신경계가 필요합니다.
 
-## RFP 지향 연구 프레이밍
+## 연구 지향 표현 프레이밍
 
-MorphoSNN은 로봇 제어 스택만을 의미하지 않습니다. 제안서 관점의 프레이밍은 로봇을 첫 번째 제한된 과제군(task-family)으로 사용하여, 신경 매니폴드(neural manifold)에서 영감을 받은 표현 기하가 ANN/SNN 표현 정렬 지표, 분산 제어 원리, 측정 가능한 과제 효율 신호로 전환될 수 있는지를 검토하는 것입니다.
+MorphoSNN은 로봇 제어 스택만을 의미하지 않습니다. 공개 연구 프레이밍은 로봇을 첫 번째 제한된 과제군(task-family)으로 사용하여, 신경 매니폴드(neural manifold)에서 영감을 받은 표현 기하가 ANN/SNN 표현 정렬 지표, 분산 제어 원리, 측정 가능한 과제 효율 신호로 전환될 수 있는지를 검토하는 것입니다.
 
-의도된 RFP 파이프라인은 다음과 같습니다.
+의도된 연구 파이프라인은 다음과 같습니다.
 
 생물학적 Neural Manifold 기하 정량화
 -> ANN/SNN 표현 정렬 및 유사도 지표
@@ -46,7 +50,7 @@ MorphoSNN은 로봇 제어 스택만을 의미하지 않습니다. 제안서 관
 
 ## 연구 및 검증 맥락
 
-제안서 관점의 의도된 역할에서 Axonova는 AI/SNN 기준 스택 통합 주체로 서술됩니다. EPFL/RRL은 모듈형, 오리가미, 소프트 로보틱스 테스트베드 전문성을 활용할 수 있는 제안된 연구 및 검증 경로 맥락으로 논의됩니다. MorphoSNN Core는 개념, 지표, 성능평가 스캐폴딩, 예제를 담는 공개 초기 기준 스택 저장소입니다.
+공개 연구 관점의 의도된 역할에서 Axonova는 AI/SNN 기준 스택 통합 주체로 서술됩니다. EPFL/RRL은 모듈형, 오리가미, 소프트 로보틱스 테스트베드 전문성을 활용할 수 있는 연구 및 검증 경로 맥락으로 논의됩니다. MorphoSNN Core는 개념, 지표, 성능평가 스캐폴딩, 예제를 담는 공개 초기 기준 스택 저장소입니다.
 
 이 공개 저장소는 공식 후원, 선정, 검증 완료, 기밀 협력 조건을 주장하지 않습니다. 또한 기관의 공식 지지, 확정된 협력기관 산출물, 완료된 파트너 검증을 주장하지 않습니다. 기관 로고는 사용 권한 확인 전까지 공개 저장소에 포함하지 않습니다.
 
@@ -77,7 +81,7 @@ MorphoSNN은 뉴로모픽 AI가 이론 모델이나 디바이스 수준 시연�
 | 성능평가 방향 이해 | [docs/03_BENCHMARK_PROTOCOL.md](docs/03_BENCHMARK_PROTOCOL.md) |
 | 검증 경로 이해 | [docs/04_EPFL_RRL_VALIDATION.md](docs/04_EPFL_RRL_VALIDATION.md) |
 | 개발 로드맵 확인 | [docs/05_ROADMAP.md](docs/05_ROADMAP.md) |
-| RFP 신경 매니폴드 프레이밍 이해 | [docs/06_NEURAL_MANIFOLD_ALIGNMENT.md](docs/06_NEURAL_MANIFOLD_ALIGNMENT.md), [docs/07_TASK_FAMILY_RATIONALE.md](docs/07_TASK_FAMILY_RATIONALE.md), [docs/08_CONSORTIUM_ROLES.md](docs/08_CONSORTIUM_ROLES.md), [docs/09_EPFL_RRL_EXTENSION_NOTE.md](docs/09_EPFL_RRL_EXTENSION_NOTE.md) |
+| 신경 매니폴드 프레이밍 이해 | [docs/06_NEURAL_MANIFOLD_ALIGNMENT.md](docs/06_NEURAL_MANIFOLD_ALIGNMENT.md), [docs/07_TASK_FAMILY_RATIONALE.md](docs/07_TASK_FAMILY_RATIONALE.md), [docs/08_CONSORTIUM_ROLES.md](docs/08_CONSORTIUM_ROLES.md), [docs/09_EPFL_RRL_EXTENSION_NOTE.md](docs/09_EPFL_RRL_EXTENSION_NOTE.md) |
 | 뉴로모픽 전략 가설 이해 | [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md) |
 | 초기 기술 명세 확인 | [SPEC.md](SPEC.md) |
 | 설계 결정 기록 확인 | [docs/decisions/](docs/decisions/) |

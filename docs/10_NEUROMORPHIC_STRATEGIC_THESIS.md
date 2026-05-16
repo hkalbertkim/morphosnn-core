@@ -2,6 +2,8 @@
 
 A public research thesis for turning neural-manifold geometry, ANN/SNN alignment, and embodied task-family benchmarks into a neuromorphic AI reference stack.
 
+![MorphoSNN concept overview](assets/morphosnn/001.png)
+
 ## 1. Core Thesis
 
 Neuromorphic computing and SNN research have strong theoretical and engineering foundations. Existing work often focuses on device-level demonstrations, isolated SNN models, or benchmark-specific classifiers.
@@ -14,9 +16,17 @@ Robotics is used as the first constrained task-family because it combines local 
 
 MorphoSNN is not merely a robotics control stack. It is a seed open-source reference-stack direction for testing whether representation geometry and alignment metrics can support interpretable and efficient AI design. MorphoSNN does not claim to be a completed benchmark breakthrough.
 
-## 2. Why a Task-Family Is Needed
+![Why current AI struggles in the real world](assets/morphosnn/002.png)
 
-Neural manifold analysis can quantify geometry in general terms. But RFP-level objectives require connecting geometry to task efficiency. That connection is difficult to evaluate without a task or task-family.
+## 2. Why Insects Matter for Efficient Intelligence
+
+Biology-inspired design principles are useful because compact nervous systems can combine local sensing, distributed coordination, rhythm generation, reflex-like correction, and morphology-aware adaptation. MorphoSNN treats these as engineering abstractions for morphology-aware spiking intelligence, not as proof of biological fidelity.
+
+![Insect-inspired neuromorphic intelligence design principles](assets/morphosnn/003.png)
+
+## 3. Why a Task-Family Is Needed
+
+Neural manifold analysis can quantify geometry in general terms. But research objectives require connecting geometry to task efficiency. That connection is difficult to evaluate without a task or task-family.
 
 Robotics is the first experimental family where representation geometry and task efficiency can be measured together.
 
@@ -29,7 +39,13 @@ Robotics is the first experimental family where representation geometry and task
 | Robustness | Whether representation structure remains useful under noise, perturbation, or morphology shift |
 | Design guideline | Whether measured geometry can inform model architecture, controller layout, or benchmark design |
 
-## 3. Historical Analogy: AlexNet as a Benchmark Moment
+## 4. Research Approach: Biology to Neuromorphic Systems
+
+MorphoSNN connects biological inspiration, representation geometry, ANN/SNN alignment, task-family benchmarks, and reusable open tooling. The research approach is to make each step inspectable enough to support design iteration rather than treating neuromorphic control as a black-box claim.
+
+![MorphoSNN research approach from biology to neuromorphic systems](assets/morphosnn/004.png)
+
+## 5. Historical Analogy: AlexNet as a Benchmark Moment
 
 Artificial neural networks existed for decades before modern deep learning became broadly credible. Broad adoption required theory, data, compute, algorithms, frameworks, and concrete benchmark evidence.
 
@@ -37,7 +53,7 @@ AlexNet/ImageNet is used only as a historical analogy for a benchmark moment. Mo
 
 The narrow analogy is that neuromorphic AI may need a concrete task-family benchmark moment where SNN and neuromorphic design principles show measurable value beyond theoretical promise. For MorphoSNN, the first candidate task-family is robotics-based embodied distributed control.
 
-## 4. Why Robotics as the First Task-Family
+## 6. Why Robotics as the First Task-Family
 
 Robotics exposes the limits of purely centralized high-level AI control. It is a strong test setting for evaluating whether neural-manifold-inspired geometry and ANN/SNN alignment can produce useful design principles. Robotics is not the final application boundary.
 
@@ -50,7 +66,9 @@ Robotics exposes the limits of purely centralized high-level AI control. It is a
 | Energy constraints | Event activity and sparse computation can be evaluated as task-efficiency proxies |
 | Perturbation recovery | Physical variation tests whether representation geometry supports robust correction |
 
-## 5. Relation to EPFL/RRL-Style Embodied Robotics
+![MorphoSNN task-family roadmap](assets/morphosnn/005.png)
+
+## 7. Relation to EPFL/RRL-Style Embodied Robotics
 
 EPFL/RRL-style modular, origami, soft, and reconfigurable robotics provides a useful conceptual validation context. Such systems naturally involve morphology, deformation, contact-rich interaction, and embodied control.
 
@@ -66,7 +84,7 @@ MorphoSNN does not replace high-level planning, LLM-based embodiment design, or 
 
 EPFL/RRL is discussed as a research and validation-pathway context, not as completed validation, official institutional endorsement, funded participation, or institutional backing.
 
-## 6. RFP-Aligned Technical Pipeline
+## 8. Technical Thesis Pipeline
 
 ```text
 Biological Neural Manifold
@@ -78,7 +96,7 @@ Biological Neural Manifold
 → Design and Optimization Guideline
 ```
 
-| RFP requirement | MorphoSNN interpretation |
+| Research requirement | MorphoSNN interpretation |
 |---|---|
 | Neural Manifold quantification | Measure representation geometry through intrinsic dimensionality, trajectories, separability, smoothness, stability, and sparsity or event activity proxies |
 | Alignment with ANN representation space | Compare biological, ANN, and SNN representations using candidate similarity metrics such as CKA, RSA, and Procrustes-style alignment |
@@ -87,7 +105,9 @@ Biological Neural Manifold
 | Relation / bound | Investigate or estimate how geometry metrics relate to task-efficiency signals without claiming that a mathematical bound has already been derived |
 | Open-source implementation | Build public docs, examples, metrics, benchmark scaffolding, and reproducible reports as a reference-stack seed |
 
-## 7. Non-Claims
+![MorphoSNN open research platform and impact](assets/morphosnn/006.png)
+
+## 9. Non-Claims
 
 MorphoSNN does not currently claim:
 
@@ -98,11 +118,11 @@ MorphoSNN does not currently claim:
 - AlexNet-level benchmark achievement;
 - generalization across arbitrary robots or tasks;
 - replacement of high-level planning systems;
-- production-ready neuromorphic control.
+- deployment-ready neuromorphic control.
 
 MorphoSNN is a seed reference-stack direction.
 
-## 8. Proposed Diagrams
+## 10. Proposed Diagrams
 
 ```mermaid
 flowchart LR

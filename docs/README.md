@@ -14,6 +14,17 @@
 - [09_EPFL_RRL_EXTENSION_NOTE.md](09_EPFL_RRL_EXTENSION_NOTE.md)
 - [10_NEUROMORPHIC_STRATEGIC_THESIS.md](10_NEUROMORPHIC_STRATEGIC_THESIS.md) - Public strategy thesis for task-grounded neuromorphic AI, robotics as first constrained task-family, and safe AlexNet/ImageNet historical analogy.
 
+## Visual Concept Set
+
+[10_NEUROMORPHIC_STRATEGIC_THESIS.md](10_NEUROMORPHIC_STRATEGIC_THESIS.md) is the main explanatory document for these public-safe visual concept assets.
+
+- [001.png](assets/morphosnn/001.png) - Master concept overview for morphology-aware spiking intelligence.
+- [002.png](assets/morphosnn/002.png) - Why centralized AI struggles under real-world physical conditions.
+- [003.png](assets/morphosnn/003.png) - Biology-inspired design principles for efficient intelligence.
+- [004.png](assets/morphosnn/004.png) - Research approach from biology to neuromorphic systems.
+- [005.png](assets/morphosnn/005.png) - Robotics as the first constrained task-family and broader expansion path.
+- [006.png](assets/morphosnn/006.png) - Open research platform and long-term impact direction.
+
 ## Design Decisions
 
 - [ADR-0001: Bio-Inspired, Not Biological Replication](decisions/ADR-0001-bio-inspired-not-biological-replication.md)
