@@ -25,37 +25,9 @@ MorphoSNN은 상위 AI 계획(high-level AI planning)과 물리 구동(physical 
 
 ## 비주얼 컨셉 스토리
 
-아래 이미지는 MorphoSNN의 연구 가설을 순서대로 보여줍니다. 현재 AI가 물리 세계에서 겪는 문제, 곤충에서 배우려는 이유, 생물학적 원리를 뉴로모픽 시스템으로 전환하는 연구 방법, 그리고 로보틱스를 첫 번째 제한된 task-family로 사용하는 확장 경로를 설명합니다.
+MorphoSNN은 문제 정의, 곤충 기반 설계 원리, 연구 접근법, task-family 로드맵, 오픈 플랫폼 방향을 설명하는 6장 구성의 비주얼 컨셉 세트를 제공합니다.
 
-### 1. 문제: 현재 AI는 현실 물리 환경에서 취약함
-
-![현실 환경에서 현재 AI가 겪는 문제](docs/assets/morphosnn/002.png)
-
-중앙집중형·데이터 의존형·프레임 기반 지능은 통제된 환경에서는 강하지만, 접촉 변화, 센서 노이즈, 지형 변화, 지연시간, 현장 적응 문제에 취약합니다.
-
-### 2. 왜 곤충인가: 생물학에서 찾는 효율적 지능 원리
-
-![곤충 기반 뉴로모픽 지능 설계 원리](docs/assets/morphosnn/003.png)
-
-곤충은 제한된 신경 자원으로도 분산 지능, 빠른 사건 기반 반응, 강건한 적응, 형태 기반 제어를 수행합니다.
-
-### 3. 연구 방법: 생물학에서 뉴로모픽 시스템으로
-
-![생물학에서 뉴로모픽 시스템으로 이어지는 MorphoSNN 연구 접근](docs/assets/morphosnn/004.png)
-
-MorphoSNN은 생물학적 원리를 관찰하고, 이를 형태 인식형 spiking model로 추상화하며, sparse event 기반 학습과 task-grounded evaluation을 통해 검증합니다.
-
-### 4. Task-Family 로드맵: 로보틱스는 TF-1
-
-![MorphoSNN task-family 로드맵](docs/assets/morphosnn/005.png)
-
-로보틱스는 첫 번째 제한된 task-family일 뿐이며, 최종 목표는 여러 embodied domain으로 확장 가능한 뉴로모픽 지능 프레임워크입니다.
-
-### 5. 플랫폼과 영향: 오픈 뉴로모픽 연구 플랫폼
-
-![MorphoSNN 오픈 연구 플랫폼과 기대 영향](docs/assets/morphosnn/006.png)
-
-MorphoSNN은 알고리즘, 데이터셋, 시뮬레이터, 하드웨어, 평가 도구, 문서, 재사용 가능한 benchmark를 연결하는 오픈 연구 플랫폼을 지향합니다.
+전체 비주얼 스토리는 [`docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md`](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md)에서 확인할 수 있습니다.
 
 본 프로젝트는 생체모방 설계 원리(biomimetic design principles)를 사용하지만, 생물학적 신경계를 1:1로 복제하려는 프로젝트가 아닙니다. 대신 절지동물의 분산 운동제어 원리, 즉 체절 신경절, 중앙 패턴 생성기(CPG), 감각 피드백, 운동명령 복사본, 신경조절, 형태학적 연산을 공학적으로 추상화하여 모듈형 스파이킹 신경망(SNN) 기반 제어 구조로 전환하는 것을 목표로 합니다.
 

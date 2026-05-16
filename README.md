@@ -32,37 +32,9 @@ See the full visual concept set in [docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md](do
 
 ## Visual Concept Story
 
-The following visual sequence summarizes the MorphoSNN thesis: why current AI struggles in real-world physical environments, why insects provide useful design principles, how those principles are translated into neuromorphic systems, and how robotics serves as the first constrained task-family for validation.
+MorphoSNN has a full six-part visual concept set covering the problem, insect-inspired design principles, research approach, task-family roadmap, and open platform direction.
 
-### 1. The Problem: Current AI Struggles in the Real World
-
-![Why current AI struggles in the real world](docs/assets/morphosnn/002.png)
-
-Centralized, data-hungry, frame-based intelligence can perform well in controlled settings, but physical systems must handle contact changes, sensor noise, terrain variation, latency, and local adaptation.
-
-### 2. Why Insects: Efficient Intelligence from Biology
-
-![Insect-inspired neuromorphic intelligence design principles](docs/assets/morphosnn/003.png)
-
-Insects provide design principles for distributed intelligence, fast event-driven behavior, robust adaptation, and morphology-aware control under severe resource constraints.
-
-### 3. Research Approach: From Biology to Neuromorphic Systems
-
-![MorphoSNN research approach from biology to neuromorphic systems](docs/assets/morphosnn/004.png)
-
-MorphoSNN studies biological principles, abstracts them into morphology-aware spiking models, learns from sparse events, embodies the models in simulated or physical systems, and validates behavior through task-grounded evaluation.
-
-### 4. Task-Family Roadmap: Robotics as TF-1
-
-![MorphoSNN task-family roadmap](docs/assets/morphosnn/005.png)
-
-Robotics is the first constrained task-family for real-world validation, but the goal is a transferable neuromorphic intelligence framework across multiple embodied domains.
-
-### 5. Platform and Impact: Open Neuromorphic Research
-
-![MorphoSNN open research platform and impact](docs/assets/morphosnn/006.png)
-
-MorphoSNN is structured as an open research platform that connects algorithms, datasets, simulators, hardware, evaluation tools, documentation, and reusable benchmarks.
+Read the full visual story in [`docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md`](docs/10_NEUROMORPHIC_STRATEGIC_THESIS.md).
 
 The project uses biomimetic design principles, but does not attempt to reproduce biological nervous systems one-to-one. Instead, it abstracts distributed motor-control principles from arthropod nervous systems—segmental ganglia, central pattern generators, sensory feedback, efference copy, neuromodulation, and morphological computation—into modular SNN-based control architectures.
 
