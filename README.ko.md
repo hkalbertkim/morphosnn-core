@@ -1,7 +1,7 @@
 # MorphoSNN Core
 
 <p align="center">
-  <img src="docs/assets/morphosnn/MorphoSNN_Logo_Final.png" alt="MorphoSNN Logo" width="1310"/>
+  <img src="docs/assets/morphosnn/MorphoSNN_Logo_Final_1.png" alt="MorphoSNN Logo" width="1310"/>
 </p>
 
 <p align="center">
